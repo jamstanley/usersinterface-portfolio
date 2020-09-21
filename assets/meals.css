@@ -1,0 +1,90 @@
+.menu{
+display: flex; 
+}
+.img{
+  flex: 1;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border: coral solid;
+  background-color: coral;
+}
+button{
+color: white;
+background-color: gray;
+border: lightcyan solid;
+border-radius: 3px;
+}
+
+.top{
+  border: solid coral 10px;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+
+}
+span{
+  color: red ;
+}
+.low {
+  /* display: flex; */
+  margin:  12px  180px;
+  border:rgba(0, 0, 0, 0.789) solid 12px;
+  padding: 40px;
+  text-align: center;
+  
+  
+
+}
+
+.navbar {
+ width: 100%;
+ background-color: #555;
+ overflow: auto;
+}
+
+
+
+.footer {
+  /* position: fixed; */
+  padding: 1px;
+  margin: 5px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+}
+
+/* Navbar links */
+.navbar a {
+ float: left;
+ text-align: center;
+ padding: 12px;
+ color: white;
+ text-decoration: none;
+ font-size: 17px;
+}
+.home{
+ background-color: green;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+ background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+ background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+ .navbar a {
+   float: none;
+   display: inline;
+ }
+
+
+ 

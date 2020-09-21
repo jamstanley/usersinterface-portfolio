@@ -1,0 +1,138 @@
+
+.a{
+ display: flex;
+ border: rgba(128, 128, 128, 0.245) solid 5px ;
+ padding: 20px 10px 20px 10px;
+ height: 300px;
+ margin: 5px;
+ background-color: rgba(176, 182, 198, 0.823)
+ ;
+}
+.box1{
+padding: 3px;
+border:rgb(226, 220, 220) solid;
+}
+.box2{
+ padding: 3px;
+ border: rgb(226, 220, 220) solid ;
+}
+.box3{
+ padding: 3px;
+ border: rgb(226, 220, 220) solid;
+}
+.b{
+ display: flex;
+ height: 200px;
+ background-color:rgba(255, 255, 0, 0.775);
+ /* margin: 10px; */
+ margin-top: 25px;
+ padding: 20px;
+border: green solid;
+ 
+}
+.b1{
+ border: ;
+ flex: 1;
+ padding: 2px;
+ margin: 5px;
+ 
+}
+.l{
+ color: white;
+ text-align: center;
+ background: #4CAF50;
+ 
+}
+
+
+
+
+body{
+ background-color: rgb(218, 214, 213);
+}
+.footer {
+  position: fixed;
+  padding: 1px;
+  margin: 5px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.748);
+  color: white;
+  text-align: center;
+}
+
+.BUTTON{
+ justify-content: center;
+ margin: 2% 2% 1% 25%;
+ border-radius: 15px;
+height: 50px;
+width: 50%;
+background-color: #4CAF50;
+}
+.K{
+ color: white;
+ background-color: gray;
+ align-content: center;
+ margin: 2% 40% 1% 40%;
+ font-size: 20px;
+ border: rgba(17, 17, 13, 0.319) solid ;
+ border-radius: 3px;
+ 
+}
+.K:hover{
+background-color: rgb(89, 100, 167) ;
+}
+
+
+/* Style the navigation bar */
+.navbar {
+ width: 100%;
+ background-color: #555;
+ overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+ float: left;
+ text-align: center;
+ padding: 12px;
+ color: white;
+ text-decoration: none;
+ font-size: 17px;
+}
+.home{
+ background-color: green;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+ background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+ background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+ .navbar a {
+   float: none;
+   display: inline;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
