@@ -18,8 +18,8 @@ border:rgb(226, 220, 220) solid;
 }
 .box3{
  padding: 3px;
- border: rgb(226, 220, 220) solid;
-}
+ border: rgb(226, 220, 220) solid;}
+
 .b{
  display: flex;
  height: 200px;
@@ -31,7 +31,6 @@ border: green solid;
  
 }
 .b1{
- border: ;
  flex: 1;
  padding: 2px;
  margin: 5px;
@@ -116,21 +115,4 @@ background-color: rgb(89, 100, 167) ;
 @media screen and (max-width: 500px) {
  .navbar a {
    float: none;
-   display: inline;
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   display: inline; } }
